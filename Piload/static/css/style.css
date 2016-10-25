@@ -1,0 +1,61 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.piload {
+    color:white;
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 11em;
+    text-align: center;
+}
+
+.upload {
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: bottom;
+    width: 960px;
+}
+
+.center {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.upload input {
+    vertical-align: bottom;
+}
+
+body {
+    background-color: #ecf0f1;
+}
+
+@media (max-width: 480px) {
+    .upload {
+        width: 100%;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    .upload {
+        width:100%;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .upload {
+        width: 960px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    .upload {
+        width: 960px;
+    }
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Piload</title>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="/static/css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1 class="piload">Piload</h1>
+        <form class="upload" enctype="multipart/form-data" action="/upload" method="post">
+        <div class="center">
+            <input type="file" name="uploadfile"/>
+            <input type="hidden" name="token" value="{{.}}"/>
+            <input type="submit" value="Submit"/>
+        </div>
+        </form>
+    </body>
+</html>
